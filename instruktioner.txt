@@ -1,0 +1,99 @@
+
+I ditt projekt så ska du skapa en webbsida som uppfyller följande kriterier:
+  - Hemsidan skall bestå av minst 5 sidor
+  - Du använder HTML5 och CSS3 för uppbyggnad
+  - Sidan skall vara användarvänlig
+  - All grafik som används på sidan skall vara av rätt format och optimerad för webb samt följa alla gällande lagar.
+  - Projektet skall fungera i de vanligaste webbläsarna (Siktar du på C eller högre ska den även fungera i mobila gränssnitt)
+  - Projektet skall valideras som korrekt HTML5 och CSS3 dokument
+
+
+Notera: Ditt projekt ska följa skolans värdegrund och får därmed inte innehålla något olagligt eller olämpligt material. Exempelvis: Droger, Nazism/Rasism eller kränkande material. 
+
+
+Förtydligande av kraven för projektet: 
+
+
+Minimikrav för ditt projekt:
+  1. Antal filer
+    Minst 5 st HTML filer
+    (1st första sida (index.html))
+    4st undersidor
+    1st CSS fil
+
+  2. HTML 5
+    Validerar
+    Fungerar i de vanligaste webbläsarna
+
+  3. CSS
+    Extern
+    Validerar
+    Fungerar i de vanligaste webbläsarna
+
+  4. Innehåll
+    Bild
+    Text
+    Valfritt: Video eller Ljud
+
+  5. Lagar, Etik och Moral
+    Projektet följer gällande lagar
+    Projektet följer skolans värdegrund
+
+  6. Webbriktlinjer
+    Arbeta aktivt med webbriktlinjer prioritetsnivå 1 (webbriktlinjer.se)
+    Arbeta aktivt med minst 5 webbriktlinjer med prioritetsnivå 2 eller högre.
+
+  7. Användarvänlig
+    Läsbarhet
+    Färgval
+    Struktur
+    Tydlighet
+    Korrekt kod
+    Lätt att navigera
+    Testa tillgängligheten med automatiska verktyg: https://webbriktlinjer.se/testa-din-webbplats/automatiska-testverktyg/
+
+  8. Validering
+    HTML validerar korrekt i validator
+    CSS validerar korrekt i validator
+    Manuella kontrollera av kod
+
+
+Ditt projekt kommer enbart innehålla HTML5 och CSS. Du har inte möjlighet att använda andra programmeringsspråk i detta projekt. Var därför uppmärksam på att du inte kan bygga upp exempelvis en blogg eller en fungerande försäljningssida då detta kräver fler kodspråk och en server. 
+
+
+Observera: Projektet ska inte innehålla Javascript, PHP eller databaser samt att du inte får använda färdiga ramverk.
+
+
+
+Krav för C eller högre
+  1. Mobilanpassning
+    Ditt projekt fungerar på mobila enheter
+    Testa detta via Chrome dev tools och Mozilla addon Web developer tools
+
+
+  2. Webbriktlinjer
+    Utöver de riktlinjer som nämnts som grund behöver du följa riktlinjer för mobilanpassning under prioritetsnivå 1.
+    Tydlighet
+    Användarvänlighet
+
+  3. Layout
+    Använda HTML5 taggar för layout
+    Se kapitel HTML5 Layout i kursboken
+
+  4. Navigering
+    Tydlig
+    Lättanvänd
+
+  5. Design
+    Färgval
+    Kontraster för ökad läsbarhet
+    Tänker på färgseende/färgblinhet i sina val
+
+  6. Text
+    Läsbarhet
+    Teckensnitt
+    Radlängd
+    Storlek
+    Placering
+    Tydlighet
+    Visa att du kan placera innehållet medvetet
