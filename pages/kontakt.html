@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kontakt</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="/styles/styles.css">
+</head>
+<body>
+
+  <header id="top"><!-- NAVBAR -->
+    <a href="#main" class="skip">Till innehållet</a>
+
+    <h1 class="logo logo-menu"><a href="/pages/index.html"><img src="/images/logga.png" alt="Freya Photos logga, föreställer en illustrerad kamera med texten 'Freya Photos' i mitten av kameran"></a></h1>
+    
+    <nav id="nav">
+      <ul class="navbar">
+        <li class="navbar"><a class="navlink" href="/pages/index.html">Hem</a></li>
+        <li class="navbar"><a class="navlink" href="/pages/portfolio.html">Portfolio</a></li>
+        <li class="navbar"><a class="navlink" href="/pages/tjänster.html">Tjänster</a></li>
+      </ul>
+      <h1 class="logo logo-no-menu"><a href="/pages/index.html"><img src="/images/logga.png" alt="Freya Photos logga, föreställer en illustrerad kamera med texten 'Freya Photos' i mitten av kameran"></a></h1>
+      <ul class="navbar">
+        <li class="navbar"><a class="navlink" href="/pages/priser.html">Priser</a></li>
+        <li class="navbar"><a class="navlink" href="/pages/om-mig.html">Om mig</a></li>
+        <li class="navbar"><a class="navlink" href="/pages/kontakt.html">Kontakt</a></li>
+      </ul>
+    </nav>
+    
+  </header><!-- /NAVBAR -->
+
+  <main id="main">
+    <h2>Kontakt</h2>
+    <section id="kontakt">
+      <form action="#" method="post">
+        <fieldset>
+          <legend>Kontaktformulär</legend>
+
+          <p><em>Fält märkta med <span class="asterix">*</span> är obligatoriska.</em></p>
+
+          <label for="fnamn">Förnamn: <span class="asterix">*</span></label><br>
+          <input type="text" id="fnamn" name="fnamn" autocomplete="given-name" required><br><br>
+
+          <label for="enamn">Efternamn: <span class="asterix">*</span></label><br>
+          <input type="text" id="enamn" name="enamn" autocomplete="family-name" required><br><br>
+
+          <label for="email">Email: <span class="asterix">*</span></label><br>
+          <input type="email" name="email" id="email" autocomplete="email" required><br><br>
+
+          <label for="telnr">Telefonnummer:</label><br>
+          <input type="tel" name="telnr" id="telnr" autocomplete="tel"><br><br>
+
+          <label for="typfotografering">Typ av fotografering:</label><br>
+          <input type="text" id="typfotografering" name="typfotografering"><br><br>
+
+          <label for="meddelande">Meddelande: <span class="asterix">*</span></label><br>
+          <textarea name="meddelande" id="meddelande" cols="30" rows="10" placeholder="Berätta kort om vad du vill boka eller fråga om!" required></textarea>
+
+          <p>Hantering av personuppgifter <span class="asterix">*</span></p>
+          
+          <input type="checkbox" name="dataskydd" id="dataskydd" required>
+          <label for="dataskydd">Jag intygar jag tagit del av <a class="policy" href="#">dataskyddspolicyn</a> om hur mina uppgifter lagras i enlighet med GDPR.</label> <br><br>
+
+          <input type="submit" id="submit" value="Skicka">
+        </fieldset>
+      </form>
+      <div class="kontakt-info">
+        <h3>Kontaktuppgifter</h3>
+        
+        <p>
+          <strong>Telefonnummer:</strong><br>
+          <a class="contact-link" href="tel:+46081234567"> +46 08 123 45 67</a></p>
+        
+        <p>
+          <strong>Email:</strong><br>
+          <a class="contact-link" href="mailto:kontakt@freyaphotos.se">kontakt@freyaphotos.se</a></p>
+        
+        <p>
+          <strong>Adress:</strong><br>
+          Storgatan 2 <br>
+          123 45 Stockholm
+        </p>
+        
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p class="to-top"><a class="to-top-link" href="#top">Till toppen av sidan</a></p>
+    <div class="flex-container-footer">
+      <p>&copy; Freya Photos, 2024</p>
+      <ul>
+        <li>Email: <a class="contact-link" href="mailto:kontakt@freyaphotos.se">kontakt@freyaphotos.se</a></li>
+        <li>Telefon:<a class="contact-link" href="tel:+46081234567"> +46 08 123 45 67</a></li>
+      </ul>
+    </div>
+  </footer>
+</body>
+</html>

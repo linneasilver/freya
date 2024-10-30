@@ -1,0 +1,591 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #f7f3f2;
+}
+
+main {
+  padding: 1em;
+}
+
+section {
+  padding: 1em;
+  margin: 3em 0;
+}
+
+h2 {
+  font-family: 'Playfair Display', serif;
+  font-size: 200%;
+  color: #513115;
+  text-align: center;
+}
+
+h3 {
+  font-family: 'Playfair Display', serif;
+  font-size: 130%;
+  color: #333d0b;
+}
+
+
+p {
+  font-family: Tahoma, Verdana, sans-serif;
+  font-size: 100%;
+  color: #333d0b;
+  line-height: 1.5em;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:focus, input:focus, textarea:focus {
+  border: 5px dotted #333d0b;
+}
+
+.contact-button-index:focus, .contact-button-om-mig:focus, button:focus, #submit:focus {
+  border: 7px dotted #fff;
+}
+
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+/* NAVBAR */
+  .skip {
+    position: absolute;
+    left: -10000px;
+    top: auto;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+  }
+
+  .skip:focus {
+    position: absolute;
+    left: 3px;
+    top: 3px;
+    width: auto;
+    height: auto;
+    color: white;
+    background-color: #333d0b;
+    padding: 1em;
+    border-radius: 5px;
+  }
+
+  .logo-menu {
+    display: none;
+  }
+
+  header {
+    text-align: center;
+  }
+
+  #nav {
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+  }
+
+  ul.navbar {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+  }
+
+  .navlink {
+    font-size: 1.3em;
+    font-family: 'Playfair Display', serif;
+    text-transform: uppercase;
+    color: rgb(96, 96, 96);
+  }
+
+  .navlink:hover {
+    color: rgb(41, 41, 41);
+  }
+
+  .logo {
+    margin: 0;
+  }
+
+  .logo a {
+    height: 210px;
+    width: 210px;
+    display: inline-block;
+    padding: 0;
+  }
+/* /NAVBAR */
+
+
+/* INDEX */
+  .image-container-index {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+
+  .image-container-index img {
+    width: 100%;
+    max-width: 1300px;
+    height: auto;
+    margin: 1em
+  }
+
+  #info-index {
+    text-align: center;
+  }
+
+  #info-index h2 {
+    margin-bottom: 0.2em;
+  }
+
+  #info-index h3 {
+    margin: 0 0 2em 0;
+    color: #513115;
+  }
+
+  #info-index p {
+    font-size: 110%;
+    max-width: 800px;
+    margin: 1em auto;
+  }
+
+  .kund-citat {
+    font-style: oblique;
+  }
+
+  .kunder-container {
+    margin: 2em 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 2em;
+    text-align: center;
+  }
+
+  #kontakt-index {
+    text-align: center;
+  }
+
+  #kontakt-index p {
+    max-width: 800px;
+    margin: 2em auto;
+  }
+
+  .contact-button-index {
+    background-color: #333d0b;
+    color: #fff;
+    text-transform: uppercase;
+    font-family: 'Playfair Display', serif;
+    font-size: 1.3em;
+    padding: 0.7em 1.5em;
+    border: none;
+    border-radius: 5px;
+    margin: 1em;
+    cursor: pointer;
+    letter-spacing: 0.1em;
+  }
+/* /INDEX */
+
+/* PORTFOLIO */
+  #portfolio {
+    margin-top: 2em;
+  }
+
+  .row {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 4px;
+  }
+
+  .column {
+    flex: 25%;
+    max-width: 25%;
+    padding: 0 4px;
+  }
+
+  .column img {
+    vertical-align: middle;
+    width: 100%;
+    padding-top: 8px;
+  }
+/* /PORTFOLIO */
+
+/* TJÄNSTER */
+  #tjanster {
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+    text-align: center;
+    margin-top: 3em;
+  }
+
+  .flex-primary, .flex-secondary {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    gap: 4em;
+  }
+
+  .tjanster {
+    flex: 50%;
+    padding: 1em;
+  }
+
+  .tjanster img {
+    width: 100%;
+  }
+
+  .frilans p {
+    margin: 1em auto;
+    max-width: 800px;
+  }
+
+  .pris-link-tjanster {
+    color: rgb(57, 57, 57);
+    
+    margin-top: 1em;
+  }
+
+  .pris-link-tjanster:hover {
+    color: rgb(41, 41, 41);
+    text-decoration: underline;
+  }
+
+  .contact-button-tjanster {
+    background-color: #333d0b;
+    color: #fff;
+    text-transform: uppercase;
+    font-family: 'Playfair Display', serif;
+    font-size: 1em;
+    padding: 1em 1.5em;
+    border: none;
+    border-radius: 5px;
+    margin: 1em auto;
+    cursor: pointer;
+    letter-spacing: 0.1em;
+    max-width: 200px;
+  }
+/* /TJÄNSTER */
+
+/* PRISER */
+
+  .priser {
+    margin: 3em 0;
+  }
+
+  .priser-lista {
+    list-style-type: disc;
+    list-style-position: inside;
+  }
+
+  .priser-lista li {
+    font-family: Tahoma, Verdana, sans-serif;
+    color: #333d0b;
+  }
+
+  .boka-button-priser {
+    background-color: #333d0b;
+    color: #fff;
+    text-transform: uppercase;
+    font-family: 'Playfair Display', serif;
+    font-size: 0.8em;
+    padding: 1em 1.5em;
+    border: none;
+    border-radius: 5px;
+    margin: 1em;
+    cursor: pointer;
+    letter-spacing: 0.1em;
+  }
+
+  .divider {
+    border-top: 5px double #333d0b;
+    margin-bottom: 5em;
+  }
+/* /PRISER */
+
+/* OM MIG */
+  #om-mig {
+    display: flex;
+    gap: 2em;
+  }
+
+  .om-mig-text, .om-mig-bild {
+    flex: 50%;
+  }
+
+  .om-mig-bild img {
+    width: 100%;
+  }
+
+  .contact-button-om-mig {
+    background-color: #333d0b;
+    color: #fff;
+    text-transform: uppercase;
+    font-family: 'Playfair Display', serif;
+    font-size: 1.3em;
+    padding: 0.5em 1.5em;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;  
+    letter-spacing: 0.1em;
+  }
+/* /OM MIG */
+
+/* KONTAKT */
+  #kontakt {
+    display: flex;
+    gap: 4em;
+  }
+
+  fieldset {
+    padding: 2em;
+    flex: 55%;
+    background-color: #fffffe;
+    border: 4px solid #333d0b;
+  }
+
+  legend {
+    color: #fff;
+    font-size: 1.7em;
+    font-family: 'Playfair Display', serif;
+    background-color: #333d0b;
+    padding: 0.4em;
+    border-radius: 5px;
+    text-transform: uppercase;
+  }
+
+  label {
+    font-family: Tahoma, Verdana, sans-serif;
+    color: #333d0b;
+
+  }
+
+  input, textarea {
+    margin: 0.5em 0;
+    padding: 0.3em;
+    font-family: Tahoma, Verdana, sans-serif;
+  }
+
+  .asterix {
+      color: red;
+    }
+
+  .policy {
+    font-family: Tahoma, Verdana, sans-serif;
+    color: rgb(57, 57, 57);
+    padding: 0;
+  }
+
+  .policy:hover {
+    color: rgb(41, 41, 41);
+    text-decoration: underline;
+  }
+
+  #submit {
+    background-color: #333d0b;
+    color: #fff;
+    text-transform: uppercase;
+    font-family: 'Playfair Display', serif;
+    font-size: 1em;
+    padding: 1em 1.5em;
+    border: none;
+    border-radius: 5px;
+    margin: 1em;
+    cursor: pointer;
+    letter-spacing: 0.1em;
+  }
+
+  .kontakt-info {
+    flex: 45%;
+  }
+
+
+/* FOOTER */
+  footer {
+    background-color: #b7b7b7;
+    padding: 2em;
+    height: 25%;
+  }
+
+  .flex-container-footer {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  footer p, a, li {
+    font-family: 'Playfair Display', serif;
+    padding: 0.5em;
+  } 
+
+  footer li {
+    color: #333d0b;
+    font-weight: bold;
+    padding: 0.5em;
+  }
+
+ .contact-link {
+    font-weight: 400;
+    color: rgb(57, 57, 57); 
+    padding: 0;
+  }
+
+  .contact-link:hover {
+    color: rgb(41, 41, 41);
+  }
+
+  .to-top {
+    text-align: center;
+  }
+
+  .to-top-link {
+    font-size: 1.3em;
+    color: rgb(57, 57, 57);
+    text-transform: uppercase;
+    margin: 0.5em auto;
+  }
+
+  .to-top-link:hover {
+    color: rgb(41, 41, 41);
+  }
+/* /FOOTER */
+
+/* MOBILANPASSNING */
+@media (max-width: 1000px) {
+  .navlink {
+    font-size: 1em;
+  }
+
+   /* KONTAKT */
+   #kontakt {
+    gap: 1em;
+  }
+}
+
+@media (max-width: 840px) {
+  main {
+    padding: 0 0.5em;
+  }
+  
+  /* HEADER */
+  .logo-menu {
+    display: flex;
+    justify-content: center;
+  }
+  .logo-no-menu {
+    display: none;
+  }
+  .logo img {
+    width: 100px;
+    height: auto;
+  }
+
+  .logo a {
+    height: 110px;
+    width: 110px; 
+  }
+
+  /* INDEX */
+  #info-index p {
+    font-size: 100%;
+  }
+  .kunder-container {
+    grid-template-columns: none;
+    grid-template-rows: 1fr 1fr 1fr;
+  }
+
+  /* PORTFOLIO */
+  .column {
+      flex: 50%;
+      max-width: 50%;
+    }
+
+  /* TJÄNSTER */
+    .flex-primary, .flex-secondary {
+      flex-direction: column;
+    }
+
+  /* KONTAKT */
+    legend {
+      font-size: 1em;
+    }
+
+  /* FOOTER */
+  .flex-container-footer {
+    flex-direction: column;
+    align-items: center;
+  }
+  #copyright {
+    order: 1;
+  }
+}
+
+@media (max-width: 600px) {
+  section {
+    margin: 0;
+    padding: 0.3em;
+  }
+  
+  /* HEADER */
+  #nav {
+    flex-direction: column;
+    justify-content: center;
+  }
+  ul.navbar {
+    padding: 0.5em;
+  }
+
+  .navlink {
+    font-size: 0.9em;
+  }
+
+  /* PORTFOLIO */
+  .column {
+    flex: 100%;
+    max-width: 100%;
+  }
+
+  /* TJÄNSTER */
+  #tjanster {
+    text-align: left;
+    margin-top: 0;
+  }
+
+  /* PRISER */
+  .boka-button-priser {
+    margin: 1em 0;
+  }
+
+  /* OM MIG */
+  #om-mig {
+    flex-direction: column;
+  }
+
+  /* KONTAKT */
+  #kontakt {
+    flex-direction: column;
+  }
+
+  fieldset {
+    padding: 0.5em;
+  }
+
+  legend {
+    display: none;
+  }
+}
+
+@media (max-width: 400px) {
+  section {
+    margin: 1em 0;
+  }
+}
